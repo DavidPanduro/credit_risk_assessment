@@ -75,26 +75,26 @@ CONJUNTO DE DADOS FINAL:<br><br>
 Finalmente temos 27 variáveis preditoras mais a variável TARGET<br><br>
 ![image](https://github.com/DavidPanduro/credit_risk_assessment/assets/45201867/4b730f05-f7d4-4bc3-9319-48d160779ee5)<br><br>
 
-FEATURES SELECTION - RANDOM FOREST:<br><br>
+FEATURES SELECTION - RANDOM FOREST:<br>
 Neste caso, a importancia das variáveis medida pela diminuição na pontuação de impureza Gini ou pela diminuição na métrica de erro médio.<br><br>
 ![image](https://github.com/DavidPanduro/credit_risk_assessment/assets/45201867/72fefb4e-6c2f-440d-9b4c-5d83bd34e9aa)
 <br><br>
-FEATURES SELECTION - MÈTODO LASSO:<br><br>
+FEATURES SELECTION - MÈTODO LASSO:<br>
 Lasso é uma técnica eficaz para reduzir a dimensionalidade dos dados, eliminando características menos importantes. O Lasso é uma técnica de regularização que adiciona uma penalização L1 à função de custo do modelo. 
 ![image](https://github.com/DavidPanduro/credit_risk_assessment/assets/45201867/1085c724-0e6d-48d7-926c-2b76eb7ca74c)<br><br>
-FEATURES SELECTION - RECURSIVE FEATURE ELIMINATION (RFE) <br><br>
+FEATURES SELECTION - RECURSIVE FEATURE ELIMINATION (RFE) <br>
 RFE funciona eliminando iterativamente as características menos importantes de um conjunto de dados.<br><br>
 ![image](https://github.com/DavidPanduro/credit_risk_assessment/assets/45201867/26dbae96-e54a-4f25-8c07-c9687b68049c)<br><br>
-FEATURES SELECTION - MÉTODO BORUTA<br><br>
+FEATURES SELECTION - MÉTODO BORUTA<br>
 Boruta opera por meio de uma abordagem de eliminação gradual de recursos, comparando as características originais com um conjunto de características aleatórias (ruído).<br><br>
 ![image](https://github.com/DavidPanduro/credit_risk_assessment/assets/45201867/37dc3aa5-fb8e-4296-b829-54f48e7f7823)<br><br>
-BALANCEAMENTO DOS DADOS:<br><br>
+BALANCEAMENTO DOS DADOS:<br>
 Utilizamos uma abordagem para ajustar o modelo de classificação, neste caso, um RandomForestClassifier, usando a técnica de sobreamostragem (SMOTE) para lidar com desequilíbrio de classes. Realizamos uma busca em grade para otimizar a estratégia de amostragem do SMOTE usando validação cruzada olhando as pontuações F1 em relação às diferentes estratégias de amostragem.<br><br>
 ![image](https://github.com/DavidPanduro/credit_risk_assessment/assets/45201867/6688228e-84d4-49c2-a7d9-02d12d7fb751)<br>
 Assim usamos a **sampling_strategy = 0.2469**
 <br><br>
 APLICAÇÂO DE ALGORITMOS:
-<br><br>
+<br>
 Aplicamos diferentes algoritmos, com validação cruzada, para a obtenção de um modelo que consiga performar melhor. A continuação os resultados<br><br>
 ![image](https://github.com/DavidPanduro/credit_risk_assessment/assets/45201867/873a1714-7830-4874-96cc-9987dca1a394)<br><br>
 A principio, os resultados não são os melhores que desejariamos ter obtido, mas serve como um baseline para trabalhar na procura de uma solução mais robusta.<br><br>
