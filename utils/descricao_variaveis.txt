@@ -1,0 +1,216 @@
+Estudo de variáveis
+
+######### REF_DATE = Datas de referencia, desde 2017-01-01 até 2017-08-01, 11% null
+######### TARGET = Classe objetivo, [0, 1]=[BOM, RUIM], 1: 114400, 0: 30069, 
+######### VAR2 = Parece ser sexo da pessoa, [F, M], F: 71850, M: 54999, I: 1, 12% null
+######### IDADE = Idade dos clientes [18 - 106], null: 16555. 11% null
+VAR4 = Variável de tipo string. só contém 254 registros. 99.9% de nulls. Só tem uma categoria 'S'.
+######### VAR5 = Unidades Federativas do Brasil. 27 categorias. String, 2.7% null
+######### VAR6 = Float. [-33.5 - 4.47], 2.7% null
+######### VAR7 = Float. [-72.9 - -32.4], 2.7% null
+VAR8 = String. ['E', 'D', 'C', 'B', 'A'].  43% null
+######### VAR9 = String. ['E','D', 'C', 'A', 'B'],  2.7% null
+######### VAR10 =  String. ['ALTA', 'MEDIA', 'ALTISSIMA', 'BAIXA', 'BAIXISSIMA'],  2.7% null
+######### VAR11 = Float. [-4.0 - 4],   38% null
+VAR12 = Float. [0.0 - 1.0]  . 45% null
+VAR13 = Float. [0.0 - 1.0]  . 87% null
+######### VAR14 = Float. [0.0 - 1.0]  . 21% null
+VAR15 = Float. [0.0 - 1.0]   51.5% null
+VAR16 = Float  [0.0 - 1.0]   62.7% null
+VAR17 = Float  [ 0.00274- 8.9]   87% null
+######### VAR18 = Float  [ 0.00274- 2.47]   21% null
+VAR19 = Float  [ 0.00274- 7.4]   51.5% null
+VAR20 = Float  [0.0 - 1.0]   90% null
+VAR21 = Float  [0.0 - 1.0]   87% null
+VAR22 = Float  [0.0 - 1.0]   51.4% null
+VAR23 = Float  [0.0 - 1.0]   90.4% null
+######### VAR24 = Float  [0.0 - 1.0]   19% null
+VAR25 = Float  [0.0 - 1.0]   51% null
+VAR26 = Float  [0.0 - 1.0]   99% null
+VAR27 = Float  [0.0 - 1.0]   99% null
+VAR28 = Float  [0.0 - 1.0]   89% null
+VAR29 = Float  [0.0 - 1.0]   79% null
+VAR30 = Float  [0.0 - 1.0]   89% null
+
+VAR31 = String  [nan, 'CAIXA ECONOMICA FEDERAL', 'BANCO BRADESCO',
+		'BANCO SANTANDER', 'BANCO DO BRASIL', 'BANCO ITAU',
+		'HSBC BANK BRASIL', 'BANCO DO ESTADO DO RIO GRANDE DO SUL'].
+		BANCO DO BRASIL                         1693
+                [CAIXA ECONOMICA FEDERAL: 928,BANCO BRADESCO: 911, 
+		BANCO ITAU: 539,BANCO SANTANDER: 309, BANCO DO ESTADO DO RIO GRANDE DO SUL: 174, 
+		HSBC BANK BRASIL: 64]   96% null
+VAR32 = String  ['CREDITADA', 'DECLARACAO NAO ENVIADA', 'SALDO INEXISTENTE',
+	        'DECLARACAO ENVIADA', 'IMPOSTO A PAGAR',
+       		'DEVOLVIDA A RECEITA FEDERAL', 'AGUARDANDO REAGENDAMENTO']  65% null
+VAR33 = String  [S, nan]   92% null
+VAR34 = string  ['PSC', 'PSDB', 'DEM', 'PC DO B', 'PTN', 'PRB', 'PT DO B',
+       		'PMDB', 'PDT', 'PSDC', 'PT', 'PP', 'PMN', 'PV', 'PTB', 'SD', 'PSB',
+       		'PHS', 'PR', 'PRTB', 'PSOL', 'PPS', 'PSD', 'PTC', 'PPL', 'PROS',
+       		'PSL', 'PEN', 'PRP', 'PCB', 'PCO', 'PSTU', 'REDE', 'NOVO']   92% null
+VAR35 = string  [S, nan]   78% null
+VAR36 = string  [S, nan]   79% null
+VAR37 = Float  [22.0 - 852.0]   79% null
+VAR38 = string  [S, nan]   99% null
+######### VAR39 = Float  [0.04 - 0.97]   0.06% null
+######### VAR40 = Float  [0.20 - 0.92]   2% null
+######### VAR41 = Float  [0.0 - 1.0]   2% null
+######### VAR42 = Float  [0.006 - 0.91]   11% null
+VAR43 = String [nan, 'S']   99% null
+VAR44 = Float  [0.0 - 17374.94]   99% null
+VAR45 = String  [nan, 'S']   99% null
+VAR46 = Float  [0.0 - 30262.37]   99% null
+######### VAR47 = Float  [0.0 - 1.0]   0% null
+VAR48 = string  [nan, 'S', 'N']   93% null
+
+######### # Aqui podemos aplicar MCA
+******************************** PRONTO
+VAR49 = string  [nan, 'S', 'N']   11% null
+VAR50 = string  [nan, 'S', 'N']   11% null
+VAR51 = string  [nan, 'S', 'N']   11% null
+VAR52 = string  [nan, 'S', 'N']   11% null
+VAR53 = string  [nan, 'S', 'N']   11% null
+VAR54 = string  [nan, 'S', 'N']   11% null
+VAR55 = string  [nan, 'S', 'N']   11% null
+VAR56 = string  [nan, 'S', 'N']   11% null
+VAR57 = string  [nan, 'S', 'N']   11% null
+VAR58 = string  [nan, 'S', 'N']   11% null
+VAR59 = string  [nan, 'S', 'N']   11% null
+VAR60 = string  [nan, 'S', 'N']   11% null
+VAR61 = string  [nan, 'S', 'N']   11% null
+VAR62 = string  [nan, 'S', 'N']   11% null
+VAR63 = string  [nan, 'S', 'N']   11% null
+VAR64 = string  [nan, 'S', 'N']   11% null
+VAR65 = string  [nan, 'S', 'N']   11% null
+
+
+######### # Aqui tbm podemos aplicar MAC
+************************** PRONTO
+VAR66 = string  ['MEDIA', 'ALTA', 'ALTISSIMA', 'BAIXISSIMA', nan]   2% null
+VAR67 = string  [ALTA', 'BAIXISSIMA', nan, 'ALTISSIMA']   2% null
+VAR68 = string  ['MEDIA', 'ALTISSIMA', 'ALTA', 'BAIXISSIMA', nan]   2% null
+VAR69 = string  ['ALTA', 'BAIXISSIMA', 'MEDIA', nan, 'ALTISSIMA']   2% null
+VAR70 = string  ['MEDIA', 'ALTISSIMA', 'BAIXISSIMA', nan, 'ALTA']   2% null
+VAR71 = string  ['ALTA', 'BAIXISSIMA', 'MEDIA', nan, 'ALTISSIMA']   2% null
+VAR72 = string  ['ALTA', 'BAIXISSIMA', 'MEDIA', nan, 'ALTISSIMA']   2% null
+VAR73 = string  ['ALTA', 'BAIXISSIMA', 'MEDIA', nan, 'ALTISSIMA']   2% null
+VAR74 = string  ['ALTA', 'BAIXISSIMA', 'MEDIA', nan, 'ALTISSIMA']   2% null
+VAR75 = string  ['ALTA', 'BAIXISSIMA', 'MEDIA', nan, 'ALTISSIMA']   2% null
+VAR76 = string  ['ALTA', 'BAIXISSIMA', 'MEDIA', nan, 'ALTISSIMA']   2% null
+VAR77 = string  ['ALTA', 'BAIXISSIMA', 'MEDIA', nan, 'ALTISSIMA']   2% null
+VAR78 = string  ['ALTA', 'BAIXISSIMA', 'MEDIA', nan, 'ALTISSIMA']   2% null
+VAR79 = string  ['ALTA', 'BAIXISSIMA', 'MEDIA', nan, 'ALTISSIMA']   2% null
+VAR80 = string  ['ALTA', 'BAIXISSIMA', 'MEDIA', nan, 'ALTISSIMA']   2% null
+VAR81 = string  ['ALTA', 'BAIXISSIMA', 'MEDIA', nan, 'ALTISSIMA']   2% null
+VAR82 = string  ['ALTA', 'BAIXISSIMA', 'MEDIA', nan, 'ALTISSIMA']   2% null
+VAR83 = string  ['ALTA', 'BAIXISSIMA', 'MEDIA', nan, 'ALTISSIMA']   2% null
+VAR84 = string  ['ALTA', 'BAIXISSIMA', 'MEDIA', nan, 'ALTISSIMA']   2% null
+VAR85 = string  ['ALTA', 'BAIXISSIMA', 'MEDIA', nan, 'ALTISSIMA']   2% null
+VAR86 = string  ['ALTA', 'BAIXISSIMA', 'MEDIA', nan, 'ALTISSIMA']   2% null
+VAR87 = string  ['ALTA', 'BAIXISSIMA', 'MEDIA', nan, 'ALTISSIMA']   2% null
+VAR88 = string  ['ALTA', 'BAIXISSIMA', 'MEDIA', nan, 'ALTISSIMA']   2% null
+VAR89 = string  ['ALTA', 'BAIXISSIMA', 'MEDIA', nan, 'ALTISSIMA']   2% null
+VAR90 = string  ['ALTA', 'BAIXISSIMA', 'MEDIA', nan, 'ALTISSIMA']   2% null
+VAR91 = string  ['ALTA', 'BAIXISSIMA', 'MEDIA', nan, 'ALTISSIMA']   2% null
+VAR92 = string  ['ALTA', 'BAIXISSIMA', 'MEDIA', nan, 'ALTISSIMA']   2% null
+VAR93 = string  ['ALTA', 'BAIXISSIMA', 'MEDIA', nan, 'ALTISSIMA']   2% null
+VAR94 = string  ['ALTA', 'BAIXISSIMA', 'MEDIA', nan, 'ALTISSIMA']   2% null
+VAR95 = string  ['ALTA', 'BAIXISSIMA', 'MEDIA', nan, 'ALTISSIMA']   2% null
+VAR96 = string  ['ALTA', 'BAIXISSIMA', 'MEDIA', nan, 'ALTISSIMA']   2% null
+VAR97 = string  ['ALTA', 'BAIXISSIMA', 'MEDIA', nan, 'ALTISSIMA']   2% null
+VAR98 = string  ['ALTA', 'BAIXISSIMA', 'MEDIA', nan, 'ALTISSIMA']   2% null
+VAR99 = string  ['ALTA', 'BAIXISSIMA', 'MEDIA', nan, 'ALTISSIMA']   2% null
+VAR100 = string  ['ALTA', 'BAIXISSIMA', 'MEDIA', nan, 'ALTISSIMA']   2% null
+VAR101 = string  ['ALTA', 'BAIXISSIMA', 'MEDIA', nan, 'ALTISSIMA']   2% null
+VAR102 = string  ['ALTA', 'BAIXISSIMA', 'MEDIA', nan, 'ALTISSIMA']   2% null
+VAR103 = string  ['ALTA', 'BAIXISSIMA', 'MEDIA', nan, 'ALTISSIMA']   2% null
+
+
+
+######### # Aqui tbm podemos aplicar MAC
+************************** PRONTO
+VAR104 = string  [LONGE', 'PROXIMO', 'MUITO LONGE', nan, 'MEDIO', 'MUITO PROXIMO']   2% null
+VAR105 = string  ['LONGE', 'MEDIO', 'MUITO LONGE', nan, 'PROXIMO', 'MUITO PROXIMO'']   2% null
+VAR106 = string  [LONGE', 'PROXIMO', 'MUITO LONGE', nan, 'MEDIO', 'MUITO PROXIMO']   2% null
+VAR107 = string  [LONGE', 'PROXIMO', 'MUITO LONGE', nan, 'MEDIO', 'MUITO PROXIMO']   2% null
+VAR108 = string  [LONGE', 'PROXIMO', 'MUITO LONGE', nan, 'MEDIO', 'MUITO PROXIMO']   2% null
+VAR109 = string  [LONGE', 'PROXIMO', 'MUITO LONGE', nan, 'MEDIO', 'MUITO PROXIMO']   2% null
+VAR110
+VAR111
+VAR112
+VAR113
+VAR114
+VAR115
+VAR116
+VAR117
+VAR118
+VAR119
+VAR120
+VAR121
+VAR122
+VAR123
+VAR124
+VAR125
+VAR126
+VAR127
+VAR128
+VAR129
+VAR130
+VAR131
+VAR132
+VAR133
+VAR134
+VAR135
+VAR136
+VAR137
+VAR138
+VAR139
+VAR140 
+
+
+######### VAR141 = Float  [0.0 - 46685.42]   0% null
+######### VAR142 = string  ['E', 'D', 'B', 'C', nan, 'A']   0.09% null
+VAR143 = string  [nan, 'N', 'S'']   98% null
+VAR144 = string  [nan, 'N', 'S'']   98% null
+
+VAR145 = Float  [0.0 - 46685.42]   99% null
+VAR146 = Float  [0.0 - 17229.2]   99% null
+
+######### VAR147 = Float  [100, 102]   0% null
+
+######### VAR148 = string  ['EMAIL INEXISTENTE',
+       		'EMAIL INEXISTENTE#@#NOME INEXISTENTE#@#CEP INEXISTENTE',
+	       	'OPERACAO REALIZADA COM SUCESSO',
+       		'NOME INEXISTENTE#@#EMAIL INEXISTENTE',
+       		'CEP INEXISTENTE#@#EMAIL INEXISTENTE', 'CEP INEXISTENTE',
+       		'NOME INEXISTENTE', 'NOME INEXISTENTE#@#CEP INEXISTENTE']   0% null
+
+VAR147 = Float  [2.6.1]   0% null
+
+ID = 144469 values
+
+
+
+Ficaria com 24 features!
+************************
+
+
+
+
+
+
+
+
+
+insight: 
+
+DADOS NULL
+1. Quando o meu dataset tiver mais de 20% de valores nulos, criarei uma coluna ['Quantidade_Faltantes'] para indicar quantos valores nulos existem em cada filha do Dataframe enquanto na coluna do dado
+faltante fica como 'desconhecido'.
+df['Quantidade_Faltante'] = df.isnull().sum(axis=1)
+df['Cidade'].fillna('Desconhecido', inplace=True)
+
+2. Posso fazer o mesmo que no ponto 1 para dados categoricos, mas posso aplicar MCA para criar uma nova coluna também.
+3. Quando a coluna tiver menos de 20% de null, posso imputar com a media, mediana ou moda (categóricos).
+
+OUTLIERS
+4. Caso de outliers. Primeiro devo verificar a distribuição dos dados. Casi seja normal, debo aplicar Z-score. Caso seja não normal, devo aplicar IQR

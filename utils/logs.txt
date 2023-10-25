@@ -1,0 +1,12 @@
+23-10: 
+	* Aplicamos MAC para dados categóricos.
+	* Aplicamos modelo MLP.
+	* Melhor resultado obtido com LGBM.
+
+24-10: 
+	* Aplicamos MLP hyperparameters.
+	* Melhor resultado obtido com LGBM.
+
+
+	* Aplicaremos macro-regions no conjunto de dados.
+	* Avaliaremos resultados.
