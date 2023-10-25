@@ -131,7 +131,9 @@ Devemos fazer o CORTE em 42% aprox . Menor que esse Score, deve ser negado o cr�
 Com a Política do Modelo conseguimos uma tendencia positiva nos cliente "Bom", conseguindo estabilizar e até criar uma tendencia negativa nas perdas (clientes "MAU").
 <br><br>
 
-**Em termos financeiros, com a aplicação do Modelo e a definição do Threshold conseguimos um incremento de 1.4% de lucro e uma diminução de 1.4% de dívida.** 
+**Em termos financeiros, com a aplicação do Modelo e a definição do Threshold conseguimos:<br><br>
+* Incrementar em 1.4% de lucro.
+* Diminuir em 1.4% de dívida. 
 
 
 
