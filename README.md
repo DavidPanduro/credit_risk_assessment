@@ -31,7 +31,7 @@ A variável alvo é denominada TARGET e possui os seguintes valores:<br><br>
 0: Mau Pagador, caso contrário.<br>
 O objetivo do modelo de classificação é mapear a classe "Bom Pagador."<br><br>
 
-Conjuntos de Dados:<br><br>
+Conjuntos de Dados:<br><br> 
 
 * Treino: conjunto de dados usado para o treinamento, abrangendo o período de janeiro a agosto de 2017.<br>
 * Teste: conjunto de dados usado para testes, também abrangendo o período de janeiro a agosto de 2017.<br><br>
