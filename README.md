@@ -1,4 +1,5 @@
 # Credit Risk Assessment Model
 Por David Panduro 💻<br><br>
-![image](https://github.com/DavidPanduro/credit_score_model/assets/45201867/4da56ab8-ede3-47e9-8332-96ca60005498)<br><br>
+![image](https://github.com/DavidPanduro/credit_risk_assessment/assets/45201867/ade6be51-5bf6-4dea-b0d6-c4f7c51692a9)
+<br><br>
 
