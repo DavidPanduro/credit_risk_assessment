@@ -7,7 +7,7 @@ CONTEXTO:<br><br>
 No seguinte estudo trabalharemos sobre o suposto de uma Empresa Financeira que já possui uma (Política AS-IS) de gestão de risco de crédito, que consiste em reprovar qualquer pessoa que tenha idade igual ou inferior a 28 anos. Ou seja: se alguém nessa faixa etária solicita crédito à instituição financeira, sua solicitação é negada.
 <br><br>
 OBJETIVO:<br><br>
-Atualmente, a Empresa deseja desenvolver um modelo de concessão de crédito (classificação binário) que consiga calcular o score dos clientes, em termos de probabilidade para convertirse em um bom/mau pagador (lembrando que a regra do negócio para ser mau pagador consiste em que o cliente registre atraso > 60 dias). <br><br>
+Atualmente, a Empresa deseja desenvolver um modelo (Política do Modelo) de concessão de crédito (classificação binário) que consiga calcular o score dos clientes, em termos de probabilidade para convertirse em um bom/mau pagador (lembrando que a regra do negócio para ser mau pagador consiste em que o cliente registre atraso > 60 dias). <br><br>
 
 O score gerado pelo modelo de machine learning proposto pode ser utilizado para gerar uma segunda política: uma vez que ele mapeia a propensão da pessoa não honrar o empréstimo, o cliente pode substituir o ponto de corte em Idade para um novo ponto de corte no Score. Perceba que a reprovação do crédito agora ocorrerá acima do ponto de corte, e não abaixo, como ocorreu com a idade. Ou seja, se o ponto de corte for T (com T entre 0 e 1), então os reprovados serão aqueles com score score >= T.<br><br>
 
