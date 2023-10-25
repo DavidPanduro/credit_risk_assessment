@@ -1,8 +1,7 @@
 # Credit Risk Assessment Model
 Por David Panduro 💻<br><br>
-![image](https://github.com/DavidPanduro/credit_risk_assessment/assets/45201867/51c1c1f3-79cb-469c-99aa-b35fc862aef8)
+![image](https://github.com/DavidPanduro/credit_risk_assessment/assets/45201867/51c1c1f3-79cb-469c-99aa-b35fc862aef8)<br><br>
 
-<br><br>
 CONTEXTO:<br><br>
 
 Neste estudo, abordaremos o cenário de uma Empresa Financeira que já possui uma Política (AS-IS) de gestão de risco de crédito. Essa política consiste em rejeitar qualquer pessoa que tenha 28 anos de idade ou menos. Em outras palavras, se alguém dentro dessa faixa etária solicitar crédito à instituição financeira, a solicitação é negada.<br><br>
