@@ -22,17 +22,20 @@ Para realizar a análise financeira do modelo, suponha que todas as pessoas na b
 <br><br>
 
 BASES:<br><br>
-A base contém 150 variáveis, a maioria das quais está mascarada. Utilize a coluna ID como uma key.<br><br>
+
+A base de dados contém 150 variáveis, a maioria das quais está mascarada. Utilize a coluna ID como chave primária.<br><br>
 
 A variável alvo é denominada TARGET e possui os seguintes valores:<br><br>
 
-1: Bom Pagador, atraso > 60 dias em 2 meses.<br>
-0: Mau Pagador, caso contrário.<br><br>
-O score do modelo de classificação deve mapear a classe Bom Pagador.<br><br>
+1: Bom Pagador, para atrasos superiores a 60 dias em 2 meses.<br>
+0: Mau Pagador, caso contrário.<br>
+O objetivo do modelo de classificação é mapear a classe "Bom Pagador."<br><br>
 
-Treino: base usada para treinamento contendo dados de janeiro a agosto de 2017<br>
-Teste: base usada para testes contendo dados de janeiro a agosto de 2017<br><br>
-<br>
+Conjuntos de Dados:<br><br>
+
+* Treino: conjunto de dados usado para o treinamento, abrangendo o período de janeiro a agosto de 2017.<br>
+* Teste: conjunto de dados usado para testes, também abrangendo o período de janeiro a agosto de 2017.<br><br>
+
 ![image](https://github.com/DavidPanduro/credit_risk_assessment/assets/45201867/6afd5262-969e-4a5f-9ff8-5c5c87bcf9d8)<br>
 Podemos observar que as variáveis estão mascaradas.
 
