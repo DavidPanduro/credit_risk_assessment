@@ -11,17 +11,28 @@ Atualmente, a Empresa deseja desenvolver um modelo (Política do Modelo) de conc
 
 O score gerado pelo modelo de machine learning proposto pode ser utilizado para gerar uma segunda política: uma vez que ele mapeia a propensão da pessoa não honrar o empréstimo, o cliente pode substituir o ponto de corte em Idade para um novo ponto de corte no Score. Perceba que a reprovação do crédito agora ocorrerá acima do ponto de corte, e não abaixo, como ocorreu com a idade. Ou seja, se o ponto de corte for T (com T entre 0 e 1), então os reprovados serão aqueles com score score >= T.<br><br>
 
-ANÁLISE FINANCEIRA: <br><br>
-
 Para realizar a análise financeira do seu modelo, suponha que todas as pessoas da base de Teste solicitaram crédito à instituição financeira, na forma de um empréstimo de R$1000,00. Faça o seguinte:<br><br>
 
 1. Calcule qual o tamanho da carteira de crédito aprovado (i.e. quanto de dinheiro a Financeira emprestou) na base de Teste, pela Política AS-IS.
 2. Calcule qual a dívida total (suponha que os inadimplentes não pagaram nenhuma parcela do empréstimo), pela Política AS-IS.
 3. Calcule qual o percentual das pessoas da base de Teste que tiveram a solicitação negada. Agora crie um ponto de corte de seu Score que nega o empréstimo para exatamente o mesmo percentual de pessoas (i.e. o empréstimo será negado para quem tiver o Score igual ou superior ao ponto de corte). Essa é a Política do Modelo.
 4. Calcule o novo tamanho da carteira de crédito aprovado e a dívida total na Política AS-IS.
+<br><br>
+
+BASES:<br><br>
+A base contém 150 variáveis, a maioria das quais está mascarada. Utilize a coluna ID como uma key.<br><br>
+
+A variável alvo é denominada TARGET e possui os seguintes valores:<br><br>
+
+1: Bom Pagador, atraso > 60 dias em 2 meses.<br>
+0: Mau Pagador, caso contrário.<br><br>
+O score do modelo de classificação deve mapear a classe Bom Pagador.<br><br>
+
+Treino: base usada para treinamento contendo dados de janeiro a agosto de 2017<br>
+Teste: base usada para testes contendo dados de janeiro a agosto de 2017<br><br>
 
 
-
+ANÁLISE FINANCEIRA: <br><br>
 
 
 
